@@ -23,10 +23,12 @@ int main() {
  
         int Ab = L * L;
         int V = Ab * H / 3;
+        int A = Ab * H / 2
 
         system("cls");
         std::cout << "Area da base: " << Ab << "\n";
         std::cout << "Volume: " << V << "\n"; 
+        std::cout << "Area: " << A << "\n";
         Sleep(3333);
     }
 }
